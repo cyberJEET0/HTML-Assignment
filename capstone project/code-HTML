@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  death Travels | Explore the World</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <h1><i class="fas fa-plane-departure"></i> Ishan's Travels</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact" class="btn-primary">Book Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+  
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Discover Your Next Adventure</h1>
+            <p>Explore breathtaking landscapes, vibrant cultures, and unforgettable experiences.</p>
+            <a href="#tours" class="btn-secondary">Explore Tours</a>
+        </div>
+    </section>
+
+    
+    <section id="destinations" class="section container">
+        <div class="section-header">
+            <h2>Popular Destinations</h2>
+            <p>Top rated locations by our travelers</p>
+        </div>
+        <div class="destinations-grid">
+            <div class="card">
+                <img src="https://wallpaperaccess.com/full/744768.jpg" alt="Mountain View">
+                <div class="card-content">
+                    <h3>Swiss Alps</h3>
+                    <p>Experience the majestic peaks and serene lakes.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://deih43ym53wif.cloudfront.net/bali-indonesia-shutterstock_459773704_0dd494ecf7.jpeg" alt="Tropical Beach">
+                <div class="card-content">
+                    <h3>Bali, Indonesia</h3>
+                    <p>Tropical paradise with pristine beaches.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://content.r9cdn.net/rimg/dimg/30/2c/c2817db5-city-21033-159036d7254.jpg?width=1200&height=630&xhint=1051&yhint=774&crop=true" alt="City Lights">
+                <div class="card-content">
+                    <h3>Tokyo, Japan</h3>
+                    <p>A blend of modern technology and tradition.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.visitdubai.com/-/media/gathercontent/article/t/the-best-malls-in-dubai/media/the-best-malls-in-dubai-city-centre-mirdif-shop-11.jpg?rev=77ecf32e5dd04229a887f85ffce7f661&cx=0.5&cy=0.5&cw=1180&ch=590" alt="Desert Safari">
+                <div class="card-content">
+                    <h3>Dubai, UAE</h3>
+                    <p>Luxury shopping and ultramodern architecture.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="tours" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Tour Packages</h2>
+                <p>Curated itineraries for every traveler</p>
+            </div>
+            <div class="tours-grid">
+                <article class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://d2qa7a8q0vuocm.cloudfront.net/images/28988620250324122530.png" alt="Tour 1">
+                        <span class="price">INR 1,07,499</SPAN>
+                    </div>
+                    <div class="tour-info">
+                        <h3>European Escape</h3>
+                        <p><i class="fas fa-clock"></i> 10 Days <i class="fas fa-user-friends"></i> Group Tour</p>
+                        <p>Visit Paris, Rome, and Barcelona in this all-inclusive tour.</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> (4.8)
+                        </div>
+                        <a href="#contact" class="btn-outline">View Details</a>
+                    </div>
+                </article>
+                <article class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://www.exoticvoyages.com/uploads/images/resize/580x580/happy_loving_couple_on_a_tropical_beach_against_the_sea_similan_island.jpg" alt="Tour 2">
+                        <span class="price">INR 76,075</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Island Hopping</h3>
+                        <p><i class="fas fa-clock"></i> 7 Days <i class="fas fa-user-friends"></i> Couple</p>
+                        <p>Relax on the most beautiful islands of Thailand.</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i> (5.0)
+                        </div>
+                        <a href="#contact" class="btn-outline">View Details</a>
+                    </div>
+                </article>
+                <article class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://tse4.mm.bing.net/th/id/OIP.x2LJD_6Fc1oPyvcV2ZndxgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Tour 3">
+                        <span class="price">INR 1,34,251</span>
+                    </div>
+                    <div class="tour-info">
+                        <h3>Himalayan Trek</h3>
+                        <p><i class="fas fa-clock"></i> 12 Days <i class="fas fa-user-friends"></i> Adventure</p>
+                        <p>Challenge yourself with a trek to the base camp.</p>
+                        <div class="rating">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="far fa-star"></i> (4.2)
+                        </div>
+                        <a href="#contact" class="btn-outline">View Details</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="gallery" class="section container">
+        <div class="section-header">
+            <h2>Travel Gallery</h2>
+            <p>Moments captured around the globe</p>
+        </div>
+        <div class="gallery-grid">
+            <img src="https://assets-global.website-files.com/63a02e61e7ffb565c30bcfc7/65ea9a06cd8c64e31b7ff7fa_most%20beautiful%20landscapes%20in%20the%20world.webp" alt="Gallery 1">
+            <img src="https://do.lolwot.com/wp-content/uploads/2016/02/10-mind-blowing-nature-photos-you-wont-believe-are-real-3.jpg" alt="Gallery 2">
+            <img src="https://www.travelandleisure.com/thmb/KLPvXakEKLGE5AY2jVyovl3Md1k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/iceland-BEAUTCONT1021-b1aeafa7ac2847a484cbca48d3172b6c.jpg" alt="Gallery 3">
+            <img src="https://www.lookslikefilm.com/wp-content/uploads/2019/02/Florian-Wenzel.jpg" alt="Gallery 4">
+            <img src="https://www.travelandleisure.com/thmb/rbPz5_6COrWFh94qFRHYLJrRM-g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/iguazu-falls-argentina-brazil-MOSTBEAUTIFUL0921-e967cc4764ca4eb2b9941bd1b48d64b5.jpg" alt="Gallery 5">
+            <img src="https://wallpaperaccess.com/full/3819837.jpg" alt="Gallery 6">
+            <img src="https://images.travelandleisureasia.com/wp-content/uploads/sites/3/2023/05/08123739/lake-como-1.jpeg" alt="Gallery 7">
+            <img src="https://www.mystart.com/blog/wp-content/uploads/2017/04/Laos.jpeg" alt="Gallery 8">
+        </div>
+    </section>
+
+    
+    <section class="section bg-dark">
+        <div class="container">
+            <div class="section-header text-white">
+                <h2>What Travelers Say</h2>
+            </div>
+            <div class="testimonials-flex">
+                <div class="testimonial-card">
+                    <p>"The best travel experience I've ever had. Everything was perfectly organized!"</p>
+                    <h4>- Aman Kushwaha</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Ishan Travels made our honeymoon unforgettable. Highly recommended!"</p>
+                    <h4>- saumya Tiwari</h4>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Great value for money and excellent customer support throughout the trip."</p>
+                    <h4>- Bhavya Singh</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="contact" class="section container">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>Ready to start your adventure? Fill out the form or contact us directly.</p>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Ranchi Road, Kolkata City</li>
+                    <li><i class="fas fa-phone"></i> +91 8104567890</li>
+                    <li><i class="fas fa-envelope"></i> info@ishanstravels.com</li>
+                </ul>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="destination">Interested Destination</label>
+                    <select id="destination">
+                        <option value="">Select a destination</option>
+                        <option value="europe">Europe</option>
+                        <option value="asia">Asia</option>
+                        <option value="americas">Americas</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Tell us about your travel plans"></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Ishan's Travels</h3>
+                <p>Making your dream vacations a reality.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tours">Tours</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Ishan's Travels. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
